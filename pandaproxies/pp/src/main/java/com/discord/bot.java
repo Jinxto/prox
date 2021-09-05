@@ -315,7 +315,7 @@ public class bot extends ListenerAdapter {
 	        					 
 	        					  
 	        						  cos.deleteFile("temp.txt");
-	        			        		 attachment="resi.mamakproxiesp2.com:31112:"+nama+":"+kataLaluan+"_country-";
+	        			        		 attachment="penda.pandaproxies.xyz:5050:"+nama+":"+kataLaluan+"_country-";
 	        			        		
 	        			        		 cos.writeSpecific2(attachment, "temp.txt", numbers,countrycode);
 	        			        		  channel.sendFile(new File("temp.txt"),"`Panda_Proxies.txt`").queue();
